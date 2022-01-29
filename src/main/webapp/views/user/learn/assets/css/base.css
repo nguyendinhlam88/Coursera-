@@ -1,0 +1,26 @@
+*::-webkit-media-controls {
+    display:none !important;
+}
+
+:root {
+    --text-color: #333;
+    --white-color: white;
+    --primary-color: rgb(0, 141, 255);
+    --border-color: rgb(231, 228, 228);
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Roboto",sans-serif;
+    line-height: 1.6rem;
+}
+
+.grid {
+    display: flex;
+    width: 100%;
+    margin: 0rem auto;
+}
